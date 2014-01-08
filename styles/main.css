@@ -62,7 +62,7 @@ section h3 {
   display: inline-block;
   width: 32px;
   height: 32px;
-  background: url(./images/github.png) center center;
+  background: url(../images/github.png) center center;
 }
 
 footer.jumbotron {
