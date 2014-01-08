@@ -86,6 +86,7 @@ section h3 {
 }
 
 footer.jumbotron {
+  font-size: inherit;
   margin-bottom: 0;
 }
 
