@@ -1,6 +1,8 @@
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 a {
@@ -32,18 +34,19 @@ header.jumbotron {
 }
 
 .body-wrapper {
-  margin-top: 15em;
+  margin-top: 14em;
   box-shadow: 0px -1em 1em rgba(255,255,255,0.2);
   z-index: 1;
 }
 
 header h1 {
-  display: inline-block;
+  font-weight: 300;
   text-transform: uppercase;
   margin: 0;
 }
 
 header p {
+  font-weight: 400;
   margin-top: 1em;
 }
 
@@ -74,6 +77,7 @@ section a:hover {
 }
 
 section h2 {
+  font-weight: 300;
   text-align: center;
   margin-bottom: 1em;
 }
