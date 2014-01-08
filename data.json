@@ -6,17 +6,87 @@
         {
           "title": "Громадське телебачення",
           "link": "http://hromadske.tv",
-          "description": ""
+          "description": false
+        },
+        {
+          "title": "Спільно.TV",
+          "link": "http://spilno.tv",
+          "description": false
+        },
+        {
+          "title": "Стримінг Аронця",
+          "link": "http://www.ustream.tv/channel/aronets",
+          "description": false
         }
       ]
     },
     {
-      "title": "Ще щось",
+      "title": "Сайти",
       "items": [
         {
-          "title": "Ще щось",
-          "link": "",
-          "description": "Опис"
+          "title": "Сайт Майдану",
+          "link": "http://maidanua.org",
+          "description": false
+        },
+        {
+          "title": "Українська Правда",
+          "link": "http://pravda.com.ua",
+          "description": "Новинне інтернет-видання, започатковане Георгієм Ґонґадзе"
+        }
+      ]
+    },
+    {
+      "title": "Організаційні структури",
+      "items": [
+        {
+          "title": "Громадський сектор",
+          "link": "https://www.facebook.com/hrom.sektor.euromaidan",
+          "description": false
+        },
+        {
+          "title": "Громадська Рада Майдану",
+          "link": false,
+          "description": false
+        },
+        {
+          "title": "СКР",
+          "link": "https://www.facebook.com/skronprotest",
+          "description": "Cтудентська Координаційна Рада"
+        },
+        {
+          "title": "Автомайдан",
+          "link": "https://www.facebook.com/automaidan",
+          "description": false
+        },
+        {
+          "title": "IT-намет",
+          "link": "http://it-namet.com.ua",
+          "description": false
+        }
+      ]
+    },
+    {
+      "title": "Онлайн-спільноти",
+      "items": [
+        {
+          "title": "Євромайдан SOS",
+          "link": "https://www.facebook.com/EvromaidanSOS",
+          "description": "Надання правової допомоги постраждалим на Євромайдані"
+        },
+        {
+          "title": "МайданКонект",
+          "link": false,
+          "description": false
+        },
+        {
+          "title": "Громадські приймальні",
+          "link": false,
+          "description": false
+        },
+        {
+          "title": "Суспільний голос",
+          "link": false,
+          "description": false
         }
       ]
     }

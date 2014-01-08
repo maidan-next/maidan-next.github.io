@@ -25,47 +25,6 @@
     <div id="data-container">
     </div>
 
-        <!-- <div class="row">
-          <div class="col-md-3">
-            <h2><a href="">Онлайн TV</a></h2>
-            <ul>
-              <li><a href="http://hromadske.tv" rel="nofollow" target="_blank">Громадське ТВ</a></li>
-              <li><a href="http://spilno.tv" rel="nofollow" target="_blank">Спільно ТВ</a></li>
-              <li><a href="http://spilno.tv" rel="nofollow" target="_blank">Cтриминг Аронця</a></li>
-            </ul>
-          </div>
-            
-          <div class="col-md-2">
-            <h2><a href="">Сайти</a></h2>
-            <ul>
-              <li><a href="http://maidanua.org" rel="nofollow" target="_blank">Сайт Майдану</a></li>
-              <li><a href="http://pravda.com.ua" rel="nofollow" target="_blank">Українская правда</a></li>
-              <li><a href="http://politcompass.info" rel="nofollow" target="_blank">ПолітКомпас</a></li>
-            </ul>
-          </div>  
-
-          <div class="col-md-3">
-            <h2><a href="">Організаційні структури</a></h2>
-            <ul>
-              <li><a href="" rel="nofollow" target="_blank">Громадський Сектор</a></li>
-              <li><a href="" rel="nofollow" target="_blank">Громадська Рада Майдану</a></li>
-              <li><a href="" rel="nofollow" target="_blank">Автомайдан</a></li>
-              <li><a href="http://it-namet.com.ua" rel="nofollow" target="_blank">ІТ-Намет</a></li>
-              <li><a href="" rel="nofollow" target="_blank">СКР</a></li>
-            </ul>
-          </div>  
-
-          <div class="col-md-3">
-            <h2><a href="">Групи</a></h2>
-            <ul>
-              <li><a href="" rel="nofollow" target="_blank">Євромайдан SOS</a></li>
-              <li><a href="" rel="nofollow" target="_blank">МайданКонект</a></li>
-              <li><a href="" rel="nofollow" target="_blank">Громадські приймальні</a></li>
-              <li><a href="" rel="nofollow" target="_blank">Суспільний голос</a></li>
-            </ul>
-          </div>  
-        </div> -->
-
     <a href="http://stfalcon.github.io/euromaidan/" class="em-ribbon" style="position: absolute; left:0; top:0; width: 90px; height: 90px; background: url('http://stfalcon.github.io/euromaidan/img/em-ribbon.png'); z-index: 2013; border: 0;" title="Розмісти стрічку з символікою України і ЄС на своєму сайті!" target="_blank"></a>
 
     <!--[if lt IE 7]>
@@ -86,12 +45,25 @@
     <script type="moustache/template" id="sections-template">
     {{#sections}}
       <section>
-        <h2 class="section-title">{{title}}</h2>
         <div class="container">
+        <h2 class="section-title">{{title}}</h2>
           {{#items}}
-          <div class="col-md-3 item well">
-            <a href="{{link}}"><h3>{{title}}</h3></a>
-            <p>{{description}}</p>
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                {{#link}}
+                <a href="{{link}}"><h3>{{title}}</h3></a>
+                {{/link}}
+                {{^link}}
+                <h3>{{title}}</h3>
+                {{/link}}
+              </div>
+              {{#description}}
+              <div class="panel-body">
+                <p>{{description}}</p>
+              </div>
+              {{/description}}
+            </div>
           </div>
           {{/items}}
         </div>
