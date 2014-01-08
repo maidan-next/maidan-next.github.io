@@ -1,4 +1,4 @@
-data = {
+{
   "sections": [
     {
       "title": "Онлайн-ТБ",
@@ -8,7 +8,7 @@ data = {
           "link": "http://hromadske.tv",
           "description": ""
         }
-      ],
+      ]
     },
     {
       "title": "Ще щось",
@@ -21,4 +21,4 @@ data = {
       ]
     }
   ]
-};
+}

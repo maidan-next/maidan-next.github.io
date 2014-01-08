@@ -1,8 +1,14 @@
 body {
   font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1,h2,h3 {
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 
 header.jumbotron {
+  font-size: inherit;
   text-align: center;
 }
 
