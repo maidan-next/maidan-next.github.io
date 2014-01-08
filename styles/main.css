@@ -28,22 +28,23 @@ header.jumbotron {
   padding-top: 4em;
   font-size: inherit;
   text-align: center;
-  color: #333;
-  background: #f1c40f;
   z-index: -1;
 }
 
 .body-wrapper {
-  margin-top: 13em;
-  box-shadow: 0px -5px 5px rgba(0, 20, 20, 0.1);
+  margin-top: 15em;
   z-index: 1;
 }
 
 header h1 {
+  display: inline-block;
+  padding: 0.5em 1em;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  padding: 0;
   margin: 0;
+  font-size: 2.5em !important;
+  color: #FFE121 !important;
+  background: #2980b9;
 }
 
 header p {
