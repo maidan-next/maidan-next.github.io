@@ -32,6 +32,21 @@
           "title": "Українська Правда",
           "link": "http://pravda.com.ua",
           "description": "Новинне інтернет-видання, започатковане Георгієм Ґонґадзе у 2000 році"
+        },
+        {
+          "title": "Як допомогти Євромайдану",
+          "link": "http://helpeuromaidan.info",
+          "description": "Інформація, контакти, координати, рахунки, реквізити для допомоги Євромайдану"
+        },
+        {
+          "title": "Діяти",
+          "link": "http://diyaty.org",
+          "description": "Реєстр інформації про вуличні акції"
+        },
+        {
+          "title": "Галас",
+          "link": "http://galas.org.ua",
+          "description": "Незалежна волонтерськи ініцітива з допомоги громадянському спротиву"
         }
       ]
     },
@@ -72,21 +87,6 @@
           "title": "Євромайдан SOS",
           "link": "https://www.facebook.com/EvromaidanSOS",
           "description": "Спільнота, що займається наданням правової допомоги постраждалим на Євромайдані"
-        },
-        {
-          "title": "МайданКонект",
-          "link": false,
-          "description": false
-        },
-        {
-          "title": "Громадські приймальні",
-          "link": false,
-          "description": false
-        },
-        {
-          "title": "Суспільний голос",
-          "link": false,
-          "description": false
         }
       ]
     }
