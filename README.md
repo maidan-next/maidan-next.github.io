@@ -12,3 +12,6 @@
 
 ### Як долучитися
 Щоб додати або змінити інформацію, треба поредагувати файл [`data.json`](https://github.com/maidan-next/maidan-2.0/blob/gh-pages/data.json)
+
+### Ліцензія
+Весь код цього репозиторію за вийнятком папки `vendor`, де ліцензія явно вказана у кожному файлі,  розповсюджується за умовами Сreative Commons CC0 1.0 (детально у [LICENSE.md](https://github.com/maidan-next/maidan-2.0/blob/gh-pages/LICENSE.md)) і може вважатися громадським надбанням.
