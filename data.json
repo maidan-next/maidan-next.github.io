@@ -6,7 +6,7 @@
         {
           "title": "Громадське телебачення",
           "link": "http://hromadske.tv",
-          "description": false
+          "description": "Ініціатива українських журналістів, телебачення знизу. Часто і об’єктивно висвітлюють події на і довкола Євромайдану"
         },
         {
           "title": "Спільно.TV",
@@ -16,7 +16,7 @@
         {
           "title": "Стримінг Аронця",
           "link": "http://www.ustream.tv/channel/aronets",
-          "description": false
+          "description": "Ustream-акаунт Олександра Аронця, часто стрімить відео з майдану"
         }
       ]
     },
@@ -45,13 +45,13 @@
         },
         {
           "title": "Громадська Рада Майдану",
-          "link": false,
-          "description": false
+          "link": "https://www.facebook.com/GRMaidan",
+          "description": "Координаційний орган громадський рухів та ініціатив Євромайдану"
         },
         {
           "title": "СКР",
           "link": "https://www.facebook.com/skronprotest",
-          "description": "Cтудентська Координаційна Рада"
+          "description": "Cтудентська Координаційна Рада, студентська організація, створена задля координації студентів, захисту їх прав з метою подальношо впливу на політику в Україні" 
         },
         {
           "title": "Автомайдан",
@@ -61,7 +61,7 @@
         {
           "title": "IT-намет",
           "link": "http://it-namet.com.ua",
-          "description": false
+          "description": ""
         }
       ]
     },
