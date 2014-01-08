@@ -3,6 +3,13 @@ body {
   font-size: 16px;
 }
 
+a {
+  /* Хай Лєбєдєв плаче */
+  text-decoration: none !important;
+  border-bottom: 1px solid #ccc;
+  transition: 0.2s all;
+}
+
 h1,h2,h3 {
   font-family: 'Open Sans', Arial, sans-serif;
 }
@@ -13,8 +20,26 @@ hr {
 }
 
 header.jumbotron {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 4em;
   font-size: inherit;
   text-align: center;
+  color: #fff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 50, 1),
+               0px 1px 1em rgba(255, 255, 255, 0.75);
+  background: url(../images/maidan.jpg) center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.body-wrapper {
+  margin-top: 13em;
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
 header h1 {
@@ -32,6 +57,11 @@ section {
   padding-top: 3.5em;
   padding-bottom: 5em;
   border-bottom: 1px solid #ccc;
+  background: #ffffff;
+}
+
+section:first-child {
+  border-top: 1px solid #ccc;
 }
 
 section:nth-child(even) {
@@ -39,7 +69,6 @@ section:nth-child(even) {
 }
 
 section a {
-  /* Хай Лєбєдєв плаче */
   text-decoration: none;
 }
 
@@ -63,6 +92,12 @@ section h3 {
   width: 32px;
   height: 32px;
   background: url(../images/github.png) center center;
+  opacity: 0.8;
+  transition: 0.2s opacity;
+}
+
+.github:hover {
+  opacity: 1;
 }
 
 footer.jumbotron {
