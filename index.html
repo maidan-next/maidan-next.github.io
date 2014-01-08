@@ -62,25 +62,30 @@
       <section>
         <div class="container">
         <h2 class="section-title">{{title}}</h2>
+          <ul class="media-list">
           {{#items}}
-          <div class="col-md-4">
-            <div class="panel panel-default">
-              <div class="panel-heading">
+            <li class="media">
+              {{#image}}
+              <div class="pull-left">
+                <img src="{{image}}" class="media-object"/>
+              </div>
+              {{/image}}
+              <div class="media-body">
+                <h3 class="media-heading">
                 {{#link}}
-                <h3><a href="{{link}}">{{title}}</a></h3>
+                  <a href="{{link}}">{{title}}</a>
                 {{/link}}
                 {{^link}}
-                <h3>{{title}}</h3>
+                  {{title}}
                 {{/link}}
-              </div>
-              {{#description}}
-              <div class="panel-body">
+                </h3>
+                {{#description}}
                 <p>{{description}}</p>
+                {{/description}}
               </div>
-              {{/description}}
-            </div>
-          </div>
+            </li>
           {{/items}}
+          </ul>
         </div>
       </section>
     {{/sections}}
