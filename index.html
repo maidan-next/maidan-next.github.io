@@ -61,33 +61,36 @@
     {{#sections}}
       <section>
         <div class="container">
-        <div class="col-md-6 col-md-offset-3">
-        <h2 class="section-title">{{title}}</h2>
-          <ul class="media-list">
-          {{#items}}
-            <li class="media">
-              {{#image}}
-              <div class="pull-left">
-                <img src="{{image}}" class="media-object"/>
-              </div>
-              {{/image}}
-              <div class="media-body">
-                <h3 class="media-heading">
-                {{#link}}
-                  <a href="{{link}}">{{title}}</a>
-                {{/link}}
-                {{^link}}
-                  {{title}}
-                {{/link}}
-                </h3>
-                {{#description}}
-                <p>{{description}}</p>
-                {{/description}}
-              </div>
-            </li>
-          {{/items}}
-          </ul>
-        </div>
+          <div class="col-md-6 col-md-offset-3">
+            <h2 class="section-title">{{title}}</h2>
+            <ul class="media-list">
+            {{#items}}
+              <li class="media">
+                <div class="pull-left">
+                  {{#image}}
+                  <img src="{{image}}" class="media-object img-circle"/>
+                  {{/image}}
+                  {{^image}}
+                  <div class="media-object placeholder"></div>
+                  {{/image}}
+                </div>
+                <div class="media-body">
+                  <h3 class="media-heading">
+                  {{#link}}
+                    <a href="{{link}}">{{title}}</a>
+                  {{/link}}
+                  {{^link}}
+                    {{title}}
+                  {{/link}}
+                  </h3>
+                  {{#description}}
+                  <p>{{description}}</p>
+                  {{/description}}
+                </div>
+              </li>
+            {{/items}}
+            </ul>
+          </div>
         </div>
       </section>
     {{/sections}}
