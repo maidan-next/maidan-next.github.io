@@ -93,6 +93,15 @@ footer.jumbotron {
   white-space: nowrap;
 }
 
+.media-object {
+  width: 64px;
+  height: 64px;
+}
+
+.placeholder {
+  display: inline-block;
+}
+
 /*section .panel {
   transition: 0.3s all;
 }
