@@ -1,0 +1,35 @@
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+header.jumbotron {
+  text-align: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0;
+  margin: 0;
+}
+
+header p {
+  margin-top: 1em;
+}
+
+section {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+section:nth-child(even) {
+  background: #eee;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section h3 {
+  font-size: 1em;
+}
