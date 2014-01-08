@@ -3,5 +3,5 @@
 
 Хаб цифрових ресурсів для Майдану.
 
-## Як долучитися
-Щоб додати або змінити інформацію, треба поредагувати файл [https://github.com/maidan-next/maidan-2.0/blob/gh-pages/data.json](`data.json`)
+#### Як долучитися
+Щоб додати або змінити інформацію, треба поредагувати файл [`data.json`](https://github.com/maidan-next/maidan-2.0/blob/gh-pages/data.json)
