@@ -34,6 +34,10 @@ section {
   border-bottom: 1px solid #ccc;
 }
 
+section:nth-child(even) {
+  background: #f6f6f6;
+}
+
 section a {
   /* Хай Лєбєдєв плаче */
   text-decoration: none;
@@ -52,6 +56,21 @@ section h2 {
 
 section h3 {
   font-size: 1em;
+}
+
+.github {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(/images/github.png) center center;
+}
+
+footer.jumbotron {
+  margin-bottom: 0;
+}
+
+.nobr {
+  white-space: nowrap;
 }
 
 /*section .panel {
