@@ -107,15 +107,22 @@
           "title": "Євромайдан SOS",
           "link": "https://www.facebook.com/EvromaidanSOS",
           "description": "Спільнота, що займається наданням правової допомоги постраждалим на Євромайдані"
+        },
+        {
+          "title": "Євромайдан",
+          "link": "https://www.facebook.com/EuroMaydan",
+          "description": "Найчисельніша фейсбук-спільнота прихильників Євромайдану"
         }
       ]
     },
     {
       "title": "Мистецтво",
       "items": [
-        "title": "Вавилон'13",
-        "link": "https://www.youtube.com/channel/UCrJIIeADD45RsffK2yYgmSw",
-        "description": "Художньо-документальні відео про Євромайдан. Ініціатива української кіноспільноти"
+        {
+          "title": "Вавилон'13",
+          "link": "https://www.youtube.com/channel/UCrJIIeADD45RsffK2yYgmSw",
+          "description": "Художньо-документальні відео про Євромайдан. Ініціатива української кіноспільноти"
+        },
       ]
     },
     {
