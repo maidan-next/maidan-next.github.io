@@ -37,7 +37,12 @@
           "title": "Страйк-місця",
           "link": "http://strikeplaces.info",
           "description": "Колективно поповнювана карта з адресами офісів, помешкань людей, причетних до влади"
-        }
+        },
+        {
+          "title": "Тексти",
+          "link": "http://texty.org.ua",
+          "description": "Інформаційне інтернет-видання"
+        },
         {
           "title": "Сайт «Майдан»",
           "link": "http://maidanua.org",
