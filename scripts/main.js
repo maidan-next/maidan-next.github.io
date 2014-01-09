@@ -36,7 +36,7 @@
         // Google+ button
         add('http://apis.google.com/js/plusone.js');
         // Facebook SDK
-        add('//connect.facebook.net/en_US/all.js#xfbml=1&appId=200103733347528', 'facebook-jssdk');
+        add('//connect.facebook.net/uk_UA/all.js#xfbml=1&appId=200103733347528', 'facebook-jssdk');
         // Twitter SDK
         add('//platform.twitter.com/widgets.js');
         fjs.parentNode.insertBefore(frag, fjs);
