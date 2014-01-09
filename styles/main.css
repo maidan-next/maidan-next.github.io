@@ -43,8 +43,12 @@ header p {
 section {
   padding-top: 3.5em;
   padding-bottom: 5em;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #cccccc;
   background: #ffffff;
+}
+
+section:first-child {
+  border-top: 1px solid #cccccc;
 }
 
 section:nth-child(even) {
