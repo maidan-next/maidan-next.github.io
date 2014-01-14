@@ -2,20 +2,51 @@
   var DATA_URL = 'data.json';
 
   $(function() {
+    var $dataContainer = $('#data-container'),
+        $body = $('body');
+
     // Query data
     $.getJSON(DATA_URL)
       .done(function(data) {
+        for (var i=0, n=data['sections'].length; i<n; ++i) {
+          data['sections'][i]['index'] = i;
+        }
+
+        console.log(data);
+
         // Render data     
         var $sectionsTemplate = $('#sections-template'),
-            $dataContainer = $('#data-container'),
-            template = Hogan.compile($sectionsTemplate.html());
+            template = $sectionsTemplate.html();
 
-        $dataContainer.html(template.render(data));
+        $dataContainer.html(Mustache.render(template, data))
+          .trigger('rendered');
       })
       .error(function() {
         console.error('Unable to get or parse data');
       });
 
+    // Smooth scroll
+    $dataContainer.on('click', '.sidebar-link', function(e) {
+        e.preventDefault();
+        var target = $($(e.currentTarget).attr('href'));
+        $('html,body').animate({
+            'scrollTop': target.offset().top
+        }, 1000);
+        return false;
+      })
+      .on('rendered', function() {
+        $body.scrollspy({
+            'target': '.sidebar-wrapper'
+          })
+          // .scrollspy('refresh');
+
+        $('.nav-sidebar').affix({
+            'offset': {
+              'top' : 256
+            }
+          });
+      });
+    
     // Social buttons
     (function(doc, script) {
       var js,

@@ -23,13 +23,15 @@ hr {
 header.jumbotron {
   font-size: inherit;
   text-align: center;
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 3em;
+  padding-bottom: 2em;
   margin-bottom: 0;
+  border-bottom: 1px solid #cccccc;
+  height: 256px;
 }
 
 .social-buttons {
-  padding-top: 0.5em;
+  padding-top: 1.5em;
 }
 
 .social-buttons > * {
@@ -37,6 +39,7 @@ header.jumbotron {
 }
 
 header h1 {
+  font-size: 2em !important;
   font-weight: 300;
   text-transform: uppercase;
   margin: 0;
@@ -47,19 +50,53 @@ header p {
   margin-top: 1em;
 }
 
+aside .nav-sidebar {
+  width: 15em;
+  margin-top: 76px;
+  padding: 10px 0;
+  border-radius: 5px;
+  background: #eeeeee;
+}
+
+aside .nav-sidebar.affix {
+  position: fixed;
+  top: 0;
+}
+
+aside ul {
+  margin-top: 10px;
+}
+
+aside .nav-sidebar li a {
+  display: block;
+  padding: 0.2em 1em 0.2em 1em;
+  width: 100%;
+  height: 100%;
+  border-bottom: none;
+  color: #333333;
+  background: transparent;
+  text-shadow: 0 1px 1px rgba(33, 33, 33, 0.1);
+}
+
+aside .nav-sidebar li a:link:active:visited:focus {
+  color: #ffffff;
+  background: transparent;
+}
+
+aside .nav-sidebar li a:hover {
+  background: #cccccc !important;
+  color: #333333;
+}
+
+aside .nav-sidebar li.active a {
+  background: #2980b9;
+  color: #eeeeee !important;
+}
+
 section {
-  padding-top: 3.5em;
+  padding-top: 3em;
   padding-bottom: 5em;
-  border-bottom: 1px solid #cccccc;
   background: #ffffff;
-}
-
-section:first-child {
-  border-top: 1px solid #cccccc;
-}
-
-section:nth-child(even) {
-  background: #f6f6f6;
 }
 
 section a {
@@ -73,9 +110,11 @@ section a:hover {
 }
 
 section h2 {
-  font-weight: 300;
-  text-align: center;
   margin-bottom: 1em;
+  margin-left: 1em;
+  padding-left: 64px;
+  font-weight: 300;
+  text-align: left;
 }
 
 section h3 {
@@ -106,18 +145,13 @@ footer.jumbotron {
 }
 
 .media-object {
+  margin-right: 1em;
   width: 64px;
   height: 64px;
 }
 
 .placeholder {
   display: inline-block;
+  /*background: #333;*/
+  border-radius: 50%;
 }
-
-/*section .panel {
-  transition: 0.3s all;
-}
-
-section .panel:hover {
-  transform: scale(1.05);
-};*/
