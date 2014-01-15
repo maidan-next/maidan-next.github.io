@@ -94,6 +94,7 @@ aside .nav-sidebar li.active a {
 }
 
 section {
+  padding-left: 2em;
   padding-top: 3em;
   padding-bottom: 1.5em;
   background: #ffffff;
@@ -111,7 +112,7 @@ section a:hover {
 
 section h2 {
   margin-bottom: 1em;
-  padding-left: 80px;
+  padding-left: 33px;
   font-weight: 300;
   text-align: left;
 }
@@ -144,9 +145,8 @@ footer.jumbotron {
 }
 
 .media-object {
-  margin-left: 2em;
   margin-right: 10px;
-  margin-top: 4px;
+  margin-top: .2em;
   width: 16px;
   height: 16px;
   opacity: 0.5;
