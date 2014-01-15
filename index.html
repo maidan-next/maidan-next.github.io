@@ -79,12 +79,9 @@
             {{#items}}
               <li class="media">
                 <div class="pull-left">
-                  {{#image}}
-                  <img src="{{image}}" class="media-object img-circle"/>
-                  {{/image}}
-                  {{^image}}
-                  <div class="media-object placeholder" style="background-image: url({{{favicon}}});"></div>
-                  {{/image}}
+                {{#favicon}}
+                  <div class="media-object favicon" style="background-image: url({{{.}}});"></div>
+                {{/favicon}}
                 </div>
                 <div class="media-body">
                   <h3 class="media-heading">

@@ -144,19 +144,18 @@ footer.jumbotron {
 }
 
 .media-object {
+  margin-left: 2em;
   margin-right: 10px;
-  width: 64px;
-  height: 64px;
+  margin-top: 4px;
+  width: 16px;
+  height: 16px;
   opacity: 0.5;
+  background: right center no-repeat;
+  background-size: 16px 16px;
+
   transition: 0.2s opacity;
 }
 
 .media:hover .media-object {
   opacity: 1;
-}
-
-.placeholder {
-  display: inline-block;
-  background: right 4px no-repeat;
-  background-size: 16px 16px;
 }
