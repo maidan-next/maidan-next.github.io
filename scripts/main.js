@@ -47,8 +47,9 @@
             target = $(targetHash);
         $('html,body').animate({
             'scrollTop': target.offset().top
-        }, 1000);
-        window.location.hash = targetHash;
+        }, 1000, function() {
+          window.location.hash = targetHash;
+        });
         return false;
       })
 

@@ -22,7 +22,6 @@ hr {
 
 header.jumbotron {
   font-size: inherit;
-  /*text-align: center;*/
   padding-top: 3em;
   padding-bottom: 2em;
   margin-bottom: 0;
@@ -96,7 +95,6 @@ aside .nav-sidebar li.active a {
 
 section {
   padding-top: 3em;
-  padding-left: 1em;
   padding-bottom: 1.5em;
   background: #ffffff;
 }
@@ -149,10 +147,16 @@ footer.jumbotron {
   margin-right: 10px;
   width: 64px;
   height: 64px;
+  opacity: 0.5;
+  transition: 0.2s opacity;
+}
+
+.media:hover .media-object {
+  opacity: 1;
 }
 
 .placeholder {
   display: inline-block;
-  background: center center no-repeat;
+  background: right 4px no-repeat;
   background-size: 16px 16px;
 }
