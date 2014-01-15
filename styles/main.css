@@ -22,14 +22,21 @@ hr {
 
 header.jumbotron {
   font-size: inherit;
+  padding-left: 3.5em;
   padding-top: 3em;
   padding-bottom: 2em;
   margin-bottom: 0;
   border-bottom: 1px solid #cccccc;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  header.jumbotron {
+    text-align: center;
+  }
 }
 
 header h1 {
-  font-size: 3em !important;
   font-weight: 300;
   text-transform: uppercase;
   margin: 0;
@@ -58,9 +65,23 @@ aside .nav-sidebar {
   background: #eeeeee;
 }
 
+@media (max-width: 1024px) {
+  aside .nav-sidebar {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;
+  }
+}
+
 aside .nav-sidebar.affix {
   position: fixed;
   top: 0;
+}
+
+@media (max-width: 1024px) {
+  aside .nav-sidebar.affix {
+    position: relative;
+  }
 }
 
 aside ul {
@@ -75,7 +96,7 @@ aside .nav-sidebar li a {
   border-bottom: none;
   color: #333333;
   background: transparent;
-  text-shadow: 0 1px 1px rgba(33, 33, 33, 0.1);
+  text-shadow: 0.1 1px 1px rgba(33, 33, 33, 0.1);
 }
 
 aside .nav-sidebar li a:link:active:visited:focus {
@@ -137,6 +158,7 @@ section h3 {
 footer.jumbotron {
   font-weight: 400;
   font-size: inherit;
+  margin-top: 2em;
   margin-bottom: 0;
 }
 
