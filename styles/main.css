@@ -30,7 +30,7 @@ header.jumbotron {
   text-align: left;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 960px) {
   header.jumbotron {
     text-align: center;
   }
@@ -65,7 +65,7 @@ aside .nav-sidebar {
   background: #eeeeee;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 960px) {
   aside .nav-sidebar {
     width: 90%;
     margin: 0 auto;
@@ -78,7 +78,7 @@ aside .nav-sidebar.affix {
   top: 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 960px) {
   aside .nav-sidebar.affix {
     position: relative;
   }
@@ -127,7 +127,7 @@ section a {
 }
 
 section a:hover {
-  border-bottom: 1px solid rgb(42,100,150);;
+  border-bottom: 1px solid rgb(42,100,150);
   text-decoration: none;
 }
 
