@@ -22,9 +22,9 @@
   <body>
     <header class="jumbotron" id="masthead">
       <div class="container">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-6">
           <h1>Майдан 2.0</h1>
-          <p>Хаб важливих цифрових ресурсів, створених, інспірованих, та просто пов’язаних із Євромайданом</p>
+          <p>Список важливих цифрових ресурсів, створених, інспірованих, та просто пов’язаних із Євромайданом</p>
           <div class="social-buttons">
             <a href="https://twitter.com/share" class="twitter-share-button" data-lang="uk" data-count="horizontal"></a>
             <div class="g-plusone" data-size="medium" data-count="true"></div>
@@ -66,14 +66,14 @@
           <ul class="nav nav-sidebar hidden-print">
             <li class="hidden"><a href="#masthead"></a></li>
           {{#sections}}
-            <li><a href="#section-{{index}}" class="sidebar-link">{{title}}</a></li>
+            <li><a href="#{{id}}" class="sidebar-link">{{title}}</a></li>
           {{/sections}}
           </ul>
         </aside>
 
         <div class="col-md-8 col-lg-7">
         {{#sections}}
-          <section id="section-{{index}}">
+          <section id="{{id}}">
             <h2 class="section-title">{{title}}</h2>
             <ul class="media-list">
             {{#items}}
@@ -83,7 +83,7 @@
                   <img src="{{image}}" class="media-object img-circle"/>
                   {{/image}}
                   {{^image}}
-                  <div class="media-object placeholder"></div>
+                  <div class="media-object img-circle placeholder" style="background-image: url({{{favicon}}});"></div>
                   {{/image}}
                 </div>
                 <div class="media-body">

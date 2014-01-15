@@ -22,24 +22,15 @@ hr {
 
 header.jumbotron {
   font-size: inherit;
-  text-align: center;
+  /*text-align: center;*/
   padding-top: 3em;
   padding-bottom: 2em;
   margin-bottom: 0;
   border-bottom: 1px solid #cccccc;
-  height: 256px;
-}
-
-.social-buttons {
-  padding-top: 1.5em;
-}
-
-.social-buttons > * {
-  display: inline-block;
 }
 
 header h1 {
-  font-size: 2em !important;
+  font-size: 3em !important;
   font-weight: 300;
   text-transform: uppercase;
   margin: 0;
@@ -50,10 +41,20 @@ header p {
   margin-top: 1em;
 }
 
+.social-buttons {
+  margin-top: .5em; 
+}
+
+.social-buttons > * {
+  display: inline-block;
+}
+
 aside .nav-sidebar {
   width: 15em;
-  margin-top: 76px;
-  padding: 10px 0;
+  margin-top: 4.5em;
+  padding-left: 0 !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 5px;
   background: #eeeeee;
 }
@@ -95,6 +96,7 @@ aside .nav-sidebar li.active a {
 
 section {
   padding-top: 3em;
+  padding-left: 1em;
   padding-bottom: 1.5em;
   background: #ffffff;
 }
@@ -111,8 +113,7 @@ section a:hover {
 
 section h2 {
   margin-bottom: 1em;
-  margin-left: 1em;
-  padding-left: 64px;
+  padding-left: 80px;
   font-weight: 300;
   text-align: left;
 }
@@ -145,13 +146,13 @@ footer.jumbotron {
 }
 
 .media-object {
-  margin-right: 1em;
+  margin-right: 10px;
   width: 64px;
   height: 64px;
 }
 
 .placeholder {
   display: inline-block;
-  /*background: #333;*/
-  border-radius: 50%;
+  background: center center no-repeat;
+  background-size: 16px 16px;
 }
